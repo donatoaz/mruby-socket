@@ -16,7 +16,6 @@
   #include <sys/types.h>
   #include <sys/socket.h>
  #ifndef ESP_PLATFORM
-  #include <sys/un.h>
   #include <netinet/tcp.h>
  #endif
   #include <netinet/in.h>
