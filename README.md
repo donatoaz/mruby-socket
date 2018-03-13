@@ -8,7 +8,7 @@ API is compatible with CRuby's "socket" library.
 Add the line below to your `build_config.rb`:
 
 ```ruby
-  conf.gem :github => 'mruby-esp32/mruby-socket', :branch => 'esp32'
+  conf.gem :github => 'donatoaz/mruby-socket', :branch => 'esp32'
 ```
 
 If stack overflow occurs, increase the stack size
